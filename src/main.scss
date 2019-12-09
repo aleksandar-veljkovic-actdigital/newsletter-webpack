@@ -1,0 +1,59 @@
+#mail-success {
+
+  max-width: 500px;
+  margin: 0 auto;
+
+* {
+  font-family: "geomanistmedium",Arial,sans-serif;
+  color: #1c1c1c;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 55px;
+  a {
+    color: #E20625;
+    text-decoration: underline;
+  }
+}
+
+$fh: 15px;
+h2 {
+  float: left;
+  line-height: $fh;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.clear-box {
+  overflow: hidden;
+}
+
+.social {
+  float: right;
+  a {
+    width: $fh;
+    height: $fh;
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+    img, svg {
+      width: auto;
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.linja {
+  border-top: 1px solid #1c1c1c;
+}
+
+}
